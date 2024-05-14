@@ -17,6 +17,30 @@ public class Character {
 	        this.offense = offense;
 	        this.defense = defense;
 	    }
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public int getHp() {
+			return hp;
+		}
+		public void setHp(int hp) {
+			this.hp = hp;
+		}
+		public int getOffense() {
+			return offense;
+		}
+		public void setOffense(int offense) {
+			this.offense = offense;
+		}
+		public int getDefense() {
+			return defense;
+		}
+		public void setDefense(int defense) {
+			this.defense = defense;
+		}
 		// 相手に攻撃するメソッド（引数には攻撃する相手のオブジェクトを指定）
 		public void attack (Character opponent) {
 			// 自分の攻撃力と相手の防御力の差をダメージ量とする
